@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 1.4rem;
 }
 body {
   width: 100%;
@@ -15,20 +14,21 @@ body {
 }
 article {
   background-color: rgb(20, 17, 15);
-  width: 1450px;
+  width: 1000px;
   margin: auto;
 
   position: relative;
 }
 .awardImages {
+  padding-top: 30px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 img {
-  width: 350px;
+  width: 240px;
 }
 @media (max-width: 1420px) {
   article {
@@ -76,7 +76,7 @@ img {
   font-size: 40px;
 }
 p {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: bold;
   padding: 20px;
 }
