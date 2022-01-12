@@ -43,8 +43,17 @@ img {
   align-items: center;
   justify-content: center;
 }
+p {
+  font-size: 15px;
+  width: 70%;
+  margin: auto;
+  line-height: 25px;
+}
+.noitaDescription p {
+  padding: 10px;
+}
 
-@media (max-width: 1420px) {
+@media (max-width: 1000px) {
   article {
     width: 100%;
     padding: 0;
@@ -63,6 +72,9 @@ img {
   .awardImages {
     padding-top: 0;
   }
+  .noitaDescription p {
+    width: 90%;
+  }
 }
 
 .main-video iframe {
@@ -77,12 +89,45 @@ img {
   margin: auto;
 }
 
+.mail h4 {
+  text-align: center;
+  margin-top: 30px;
+}
+.mailContainer input {
+  width: 50%;
+  padding: 8px;
+  border-radius: 5px;
+}
+.mailContainer {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.mailContainer button {
+  padding: 10px;
+  width: 140px;
+  background-color: rgb(83, 83, 83);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
 @media (max-width: 953px) {
   .main-video iframe {
     height: 500px;
   }
   .awardImages {
     padding-top: 0;
+  }
+  .mailContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .mailContainer input {
+    width: 80%;
   }
 }
 
@@ -95,16 +140,13 @@ img {
   }
 }
 
-.available-now {
+h1 {
   text-align: center;
   padding: 20px;
   font-size: 40px;
   font-weight: 550;
 }
-p {
-  font-size: 15px;
-  font-weight: bold;
-}
+
 @media (max-width: 516px) {
   .stores1,
   .stores2 {
