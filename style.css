@@ -75,8 +75,11 @@ p {
 video {
   width: 300px;
 }
-source {
-  width: 500px;
+.screenshots img {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 10px;
 }
 @media (max-width: 1000px) {
   article {
@@ -104,6 +107,9 @@ source {
     flex-direction: column;
     width: 100%;
     padding-top: 0;
+  }
+  .screenshots img {
+    width: 90%;
   }
 }
 
