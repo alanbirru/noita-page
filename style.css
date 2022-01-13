@@ -81,6 +81,18 @@ video {
   width: 70%;
   margin-bottom: 10px;
 }
+
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 20px;
+  margin: auto;
+}
+.FAQ .container {
+  width: 100%;
+  text-align: center;
+}
 @media (max-width: 1000px) {
   article {
     width: 100%;
@@ -100,15 +112,16 @@ video {
   .awardImages {
     padding-top: 0;
   }
-  p {
-    width: 100%;
-  }
+
   .mainContainer {
     flex-direction: column;
     width: 100%;
     padding-top: 0;
   }
   .screenshots img {
+    width: 90%;
+  }
+  .FAQ {
     width: 90%;
   }
 }
