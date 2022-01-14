@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   width: 100%;
   background-color: black;
@@ -108,6 +109,13 @@ video {
 a {
   color: white;
   font-weight: bold;
+}
+.backToTop {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(224, 224, 224);
+  cursor: pointer;
 }
 @media (max-width: 1000px) {
   article {

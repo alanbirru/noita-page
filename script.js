@@ -8,9 +8,9 @@ video2.addEventListener("click", function () {
   this.requestFullscreen();
 });
 
-let pressKit = document.querySelector(".pressKit");
+let backToTop = document.querySelector(".backToTop");
 let body = document.querySelector("body");
 
-pressKit.addEventListener("click", function () {
+backToTop.addEventListener("click", function () {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
